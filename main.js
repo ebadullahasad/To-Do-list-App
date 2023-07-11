@@ -1,6 +1,5 @@
 let button = document.getElementById("btn");
 let inputBox;
-let checked = false;
 let listItems;
 let list;
 let index;
