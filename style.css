@@ -135,12 +135,26 @@ li .icons :hover {
     margin-right: 13%;
     width: 100%;
   }
- 
+
   li .icons {
     right: 15%;
     width: 10%;
   }
+  li .icons {
+    height: 15px;
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    right: 15%;
+    width: 15%;
+    justify-content: space-evenly;
+  }
   .error-msg {
     width: 75%;
+  }
+  li .CheckMarkIcon {
+    height: 15px;
+    position: absolute;
+    left: 21%;
   }
 }
